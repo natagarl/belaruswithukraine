@@ -1,0 +1,7 @@
+.langs__item_active {
+  opacity: 0.2;
+}
+
+.langs__item_active:hover {
+  color: white;
+}

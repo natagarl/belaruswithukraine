@@ -1,0 +1,14 @@
+.main__btn {
+  border: none;
+  background-color: #f6711c;
+  color: white;
+  padding: 20px 55px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+  border-radius: 7px;
+}
+
+.main__btn:hover {
+  opacity: 0.8;
+}

@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html lang="be">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Што беларусы робяць</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Natasha Garlukovich">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Што беларусы робяць</title>
+  <link rel="icon" type="image/x-icon" href="./images/icon-belaruswithukraine.png">
+</head>
+
+<body class="page">
+  <div class="page__container">
+
+    <!-- header -->
+    <header class="header">
+      <nav>
+        <ul class="langs">
+          <li><button type="button" class="langs__item langs__item_value_be langs__item_active">Be</button></li>
+          <li><button type="button" class="langs__item langs__item_value_en">En</button></li>
+          <li><button type="button" class="langs__item langs__item_value_ru">Ru</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main page__main">
+      <h1 class="main__title">Што робяць беларусы падчас вайны на Украiне?</h1>
+
+      <!-- images -->
+      <img src="./images/01-donate-their-drones.jpg" alt=" " class="main__img">
+      <p class="main__paragraph">Аддаюць свае дроны, нават калі самі доўга на іх збіралі.</p>
+      <button type="button" class="main__btn main__btn_value_whatelse">Што яшчэ?</button>
+
+      <!-- when images are over -->
+      <p
+        class="main__last-screen-paragraph main__last-screen-paragraph_hidden main__last-screen-paragraph_attention_main">
+        Яшчэ многа чаго добрага,
+        але я гэтага яшчэ не намалявала.</p>
+      <p
+        class="main__last-screen-paragraph main__last-screen-paragraph_hidden main__last-screen-paragraph_attention_secondary">
+        Больш пачытаць пра справы
+        беларусаў можна, напрыклад, тут:</p>
+      <a href="https://tsikhanouskaya.org/be/" target="_blank"
+        class="main__link main__link_hidden">tsikhanouskaya.org</a>
+      <button type="button" class="main__btn main__btn_hidden main__btn_value_watchagain">Паглядзець зноў</button>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <a href="https://www.instagram.com/natagarl/" target="_blank" class="footer__link-copyright">&copy; natagarl</a>
+    </footer>
+
+  </div>
+
+  <script src="./scripts/index.js"></script>
+</body>
+
 </html>

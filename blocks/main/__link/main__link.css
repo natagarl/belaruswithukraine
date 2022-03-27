@@ -1,0 +1,11 @@
+.main__link {
+  color: white;
+  opacity: 0.5;
+  font-size: 12px;
+  margin-bottom: 80px;
+  transition: color 0.2s linear;
+}
+
+.main__link:hover {
+  color: #f6711c;
+}

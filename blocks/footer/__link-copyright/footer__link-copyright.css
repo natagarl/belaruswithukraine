@@ -1,0 +1,12 @@
+.footer__link-copyright {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+  margin-right: 24px;
+  transition: color 0.2s linear;
+  font-size: 10px;
+}
+
+.footer__link-copyright:hover {
+  color: #f6711c;
+}

@@ -1,0 +1,16 @@
+.langs__item {
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+
+.langs__item:hover {
+  color: #f6711c;
+}

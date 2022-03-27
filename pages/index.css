@@ -1,0 +1,39 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/* page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/langs/langs.css);
+@import url(../blocks/langs/__item/langs__item.css);
+@import url(../blocks/langs/__item/_active/langs__item_active.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/page/__main/page__main.css);
+
+@import url(../blocks/main/__title/main__title.css);
+
+@import url(../blocks/main/__img/main__img.css);
+@import url(../blocks/main/__img/_hidden/main__img_hidden.css);
+
+@import url(../blocks/main/__paragraph/main__paragraph.css);
+@import url(../blocks/main/__paragraph/_hidden/main__paragraph_hidden.css);
+
+@import url(../blocks/main/__btn/main__btn.css);
+@import url(../blocks/main/__btn/_hidden/main__btn_hidden.css);
+
+
+@import url(../blocks/main/__last-screen-paragraph/main__last-screen-paragraph.css);
+@import url(../blocks/main/__last-screen-paragraph/_hidden/main__last-screen-paragraph_hidden.css);
+@import url(../blocks/main/__last-screen-paragraph/_attention/main__last-screen-paragraph_attention_secodary.css);
+
+@import url(../blocks/main/__link/main__link.css);
+@import url(../blocks/main/__link/_hidden/main__link_hidden.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link-copyright/footer__link-copyright.css);
