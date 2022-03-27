@@ -1,10 +1,12 @@
 .footer__link-copyright {
+  display: block;
   color: white;
   opacity: 0.5;
   text-decoration: none;
   margin-right: 24px;
   transition: color 0.2s linear;
   font-size: 10px;
+  text-align: right;
 }
 
 .footer__link-copyright:hover {
