@@ -200,7 +200,7 @@ function showWhatElse() {
 // function for click on Again button
 
 function showAgain() {
-  images = [img0, img1, img2, img3, img4];
+  images = [img0, img1, img2, img3, img4, img5, img6, img7];
   currentRandomNumber = Math.trunc(Math.random() * images.length);
   mainImg.src = images[currentRandomNumber].link;
   if (langBe) {
