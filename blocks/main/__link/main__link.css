@@ -9,3 +9,9 @@
 .main__link:hover {
   color: #f6711c;
 }
+
+@media screen and (max-width: 540px) {
+  .main__link {
+    margin-bottom: 30px;
+  }
+}

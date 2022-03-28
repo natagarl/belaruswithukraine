@@ -2,4 +2,8 @@
   font-family: 'Roboto', Arial, sans-serif;
   color: white;
   background-color: #3c0000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

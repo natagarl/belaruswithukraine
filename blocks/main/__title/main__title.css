@@ -1,8 +1,14 @@
 .main__title {
   font-size: 24px;
-  max-width: 450px;
+  max-width: 300px;
   text-align: center;
   color: #f6711c;
   margin: 0 0 50px;
   padding: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .main__title {
+    margin-bottom: 24px;
+  }
 }
