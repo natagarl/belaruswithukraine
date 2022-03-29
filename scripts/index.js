@@ -23,16 +23,16 @@ const img2 = {
 
 const img3 = {
   link: './images/04-collect-and-send-aid.jpg',
-  descriptionbe: 'Збіраюць і адпраўляюць дапамогу на Украіну.',
+  descriptionbe: 'Збіраюць і адпраўляюць дапамогу ва Украіну.',
   descriptionen: 'Collecting and sending aid to Ukraine.',
-  descriptionru: 'Собирают и отправляют помощь на Украину.'
+  descriptionru: 'Собирают и отправляют помощь в Украину.'
 }
 
 const img4 = {
   link: './images/05-join-the-belarusian-battalion.jpg',
-  descriptionbe: 'Уступаюць у беларускі батальён Кастуся Каліноўскага, каб ваяваць на Украіне супраць расейскіх акупантаў.',
+  descriptionbe: 'Уступаюць у беларускі батальён Кастуся Каліноўскага, каб ваяваць ва Украіне супраць расейскіх акупантаў.',
   descriptionen: 'Joining the Belarusian battalion of Kastus Kalinouski to fight in Ukraine against the Russian occupiers.',
-  descriptionru: 'Присоединяются к беларусскому батальону Кастуся Калиновского, чтобы воевать на Украине против российских оккупантов.'
+  descriptionru: 'Присоединяются к беларусскому батальону Кастуся Калиновского, чтобы воевать в Украине против российских оккупантов.'
 }
 
 const img5 = {
@@ -51,9 +51,9 @@ const img6 = {
 
 const img7 = {
   link: './images/08-rescue-injured.jpg',
-  descriptionbe: 'Застаюцца на Украіне і ратуюць параненых.',
+  descriptionbe: 'Застаюцца ва Украіне і ратуюць параненых.',
   descriptionen: 'Remaining in Ukraine and rescuing the wounded.',
-  descriptionru: 'Остаются на Украине и спасают раненых.'
+  descriptionru: 'Остаются в Украине и спасают раненых.'
 }
 
 
@@ -116,7 +116,7 @@ function makeLangBeActive() {
     mainParagraph.textContent = images[currentRandomNumber].descriptionbe;
   }
   headTitle.textContent = 'Што беларусы робяць';
-  mainTitle.textContent = 'Што робяць беларусы падчас вайны на Украiне?';
+  mainTitle.textContent = 'Што робяць беларусы падчас вайны ва Украiне?';
   mainBtnWhatElse.textContent = 'Што яшчэ?';
 
   mainLastScreenParagraphMain.textContent = 'Яшчэ многа чаго добрага, але я гэтага яшчэ не намалявала.';
@@ -160,7 +160,7 @@ function makeLangRuActive() {
     mainParagraph.textContent = images[currentRandomNumber].descriptionru;
   }
   headTitle.textContent = 'Что беларусы делают';
-  mainTitle.textContent = 'Что беларусы делают во время войны на Украине?';
+  mainTitle.textContent = 'Что беларусы делают во время войны в Украине?';
   mainBtnWhatElse.textContent = 'Что ещё?';
 
   mainLastScreenParagraphMain.textContent = 'Ещё много всего доброго, но я этого ещё не нарисовала.';
